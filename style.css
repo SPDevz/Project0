@@ -1,3 +1,7 @@
+.container{
+    width: 100%;
+}
+
 #homebanner{
     background-image: url(img\homebanner.png) no-repeat;
     width:100%;
@@ -16,7 +20,7 @@
     color: white;
 }
 
-.row{
+#navmenu{
     margin-top: 8px;
     margin-bottom: 8px;
     background-color: rgba(189, 142, 92);
@@ -41,5 +45,54 @@
     border-color: lightslategrey;
     border-style: solid;
     border-width: 1px;
-    font: ;
+}
+
+#aboutus{
+    margin-top: 50px;
+}
+
+#storeitems{
+    margin-top: 50px;
+    box-align: center;
+}
+
+#storeitems > div{
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 11pt;
+    color: rgb(41, 41, 41);
+}
+
+#contactus{
+    margin-top: 50px;
+}
+
+#name{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+#email{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+#message{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: white;
+    background-color: rgb(43, 34, 19);
+}
+
+img{
+    width: 100%;
+    height: auto;
 }

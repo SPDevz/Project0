@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>One's Keyboard</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <img src="img/homebanner.png" alt="Banner for webpage" id="homebanner">
+            </div>
+
+            <div class="row" id="navmenu">
+                <div class="col-sm"><a href="index.html">Home</a></div>
+                <div class="col-sm"><a href="aboutus.html">About us</a></div>
+                <div class="col-sm"><a href="store.html">Store</a></div>
+                <div class="col-sm"><a href="contactus.html">Contact us</a></div>
+            </div>
+
+            <div class="col-md" id="contactus">
+                <p>You may contact us by filling up the following form.</p>
+                <form>
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address (e.g. abc@gmail.com)" required><br>
+                    <label for="message">Enter your message here:</label><br>
+                    <textarea name="message" id="message" form="contactus"></textarea><br>
+                    <input type="submit" name="submit" id="submit">
+                </form>
+            </div>
+            
+        </div>
+
+        <div class="footer">
+            <p><em>Disclaimer: Please note that this website is created for an assignment. It is not meant for any commercial purposes.</em></p>
+        </div>
+
+    </body>
+</html>
