@@ -1,0 +1,45 @@
+#homebanner{
+    background-image: url(img\homebanner.png) no-repeat;
+    width:100%;
+    height:auto;
+    background-size: contain;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 20, 20, 0.7);
+    padding-left: 6%;
+    padding-top: 1%;
+    color: white;
+}
+
+.row{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: rgba(189, 142, 92);
+    text-align: center;
+    color: white;
+    font-style: bold;
+}
+
+.contentarea{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:white;
+}
+
+::selection {
+    background: rgba(143, 227, 165);
+}
+
+.contentarea > div{
+    margin-top: 30px;
+    padding: 20px;
+    border-color: lightslategrey;
+    border-style: solid;
+    border-width: 1px;
+    font: ;
+}
