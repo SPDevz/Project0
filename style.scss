@@ -1,0 +1,139 @@
+$backgroundcol1: rgba(189, 142, 92);
+$textcol1: white;
+
+.container{
+    width: 100%;
+}
+
+#homebanner{
+    background-image: url(img\homebanner.png) no-repeat;
+    width:100%;
+    height:auto;
+    background-size: contain;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 20, 20, 0.7);
+    padding-left: 6%;
+    padding-top: 1%;
+    color: $textcol1;
+}
+
+#navmenu{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: $backgroundcol1;
+    text-align: center;
+    color: $textcol1;
+    font-style: bold;
+}
+
+.contentarea{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:white;
+}
+
+::selection {
+    background: rgba(143, 227, 165);
+}
+
+.contentarea > div{
+    margin-top: 30px;
+    padding: 20px;
+    border-color: lightslategrey;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#aboutus{
+    margin-top: 50px;
+}
+
+#storeitems{
+    margin-top: 50px;
+    box-align: center;
+}
+
+#storeitems > div{
+    align-content: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 11pt;
+    color: rgb(41, 41, 41);
+}
+
+#contactus{
+    margin-top: 50px;
+}
+
+#name{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+#email{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+#message{
+    width:80%;
+    margin-bottom: 20px;
+}
+
+a{
+    color: $textcol1;
+}
+
+a:hover{
+    color: $textcol1;
+    background-color: rgb(43, 34, 19);
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+#livestreamschedule{
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+tr, th, td{
+    padding: 10px;
+    border: solid;
+    border-width: 1pt;
+    border-color: gray;
+    font-size: 9pt;
+}
+
+th{
+    background-color: $backgroundcol1;
+    color: $textcol1;
+}
+
+@media only screen and (max-width: 600px){
+    #name{
+        width:80%;
+        margin-bottom: 15px;
+        font-size: 10pt;
+    }
+    
+    #email{
+        width:80%;
+        margin-bottom: 15px;
+        font-size: 10pt;
+    }
+    
+    #message{
+        width:80%;
+        margin-bottom: 15px;
+        font-size: 10pt;
+    }
+}

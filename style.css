@@ -1,98 +1,138 @@
-.container{
-    width: 100%;
+.container {
+  width: 100%;
 }
 
-#homebanner{
-    background-image: url(img\homebanner.png) no-repeat;
-    width:100%;
-    height:auto;
-    background-size: contain;
+#homebanner {
+  background-image: url(img\homebanner.png) no-repeat;
+  width: 100%;
+  height: auto;
+  background-size: contain;
 }
 
-.footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgba(19, 20, 20, 0.7);
-    padding-left: 6%;
-    padding-top: 1%;
-    color: white;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(19, 20, 20, 0.7);
+  padding-left: 6%;
+  padding-top: 1%;
+  color: white;
 }
 
-#navmenu{
-    margin-top: 8px;
-    margin-bottom: 8px;
-    background-color: rgba(189, 142, 92);
-    text-align: center;
-    color: white;
-    font-style: bold;
+#navmenu {
+  margin-top: 8px;
+  margin-bottom: 8px;
+  background-color: #bd8e5c;
+  text-align: center;
+  color: white;
+  font-style: bold;
 }
 
-.contentarea{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    background-color:white;
+.contentarea {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background-color: white;
 }
 
 ::selection {
-    background: rgba(143, 227, 165);
+  background: #8fe3a5;
 }
 
-.contentarea > div{
-    margin-top: 30px;
-    padding: 20px;
-    border-color: lightslategrey;
-    border-style: solid;
-    border-width: 1px;
+.contentarea > div {
+  margin-top: 30px;
+  padding: 20px;
+  border-color: lightslategrey;
+  border-style: solid;
+  border-width: 1px;
 }
 
-#aboutus{
-    margin-top: 50px;
+#aboutus {
+  margin-top: 50px;
 }
 
-#storeitems{
-    margin-top: 50px;
-    box-align: center;
+#storeitems {
+  margin-top: 50px;
+  box-align: center;
 }
 
-#storeitems > div{
-    align-content: center;
-    margin: 10px;
-    padding: 10px;
-    font-size: 11pt;
-    color: rgb(41, 41, 41);
+#storeitems > div {
+  align-content: center;
+  margin: 10px;
+  padding: 10px;
+  font-size: 11pt;
+  color: #292929;
 }
 
-#contactus{
-    margin-top: 50px;
+#contactus {
+  margin-top: 50px;
 }
 
-#name{
-    width:80%;
-    margin-bottom: 20px;
+#name {
+  width: 80%;
+  margin-bottom: 20px;
 }
 
-#email{
-    width:80%;
-    margin-bottom: 20px;
+#email {
+  width: 80%;
+  margin-bottom: 20px;
 }
 
-#message{
-    width:80%;
-    margin-bottom: 20px;
+#message {
+  width: 80%;
+  margin-bottom: 20px;
 }
 
-a{
-    color: white;
+a {
+  color: white;
 }
 
-a:hover{
-    color: white;
-    background-color: rgb(43, 34, 19);
+a:hover {
+  color: white;
+  background-color: #2b2213;
 }
 
-img{
-    width: 100%;
-    height: auto;
+img {
+  width: 100%;
+  height: auto;
 }
+
+#livestreamschedule {
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+tr, th, td {
+  padding: 10px;
+  border: solid;
+  border-width: 1pt;
+  border-color: gray;
+  font-size: 9pt;
+}
+
+th {
+  background-color: #bd8e5c;
+  color: white;
+}
+
+@media only screen and (max-width: 600px) {
+  #name {
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 10pt;
+  }
+
+  #email {
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 10pt;
+  }
+
+  #message {
+    width: 80%;
+    margin-bottom: 15px;
+    font-size: 10pt;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
